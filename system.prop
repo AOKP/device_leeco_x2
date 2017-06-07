@@ -1,3 +1,17 @@
+#AOKP Device Maintainers
+ro.aokp.maintainer=Rohit Jaiswal
+
+# Google Assistant
+ro.opa.eligible_device=true
+
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8996 Snapdragon 820
+ro.device.cpu=Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)
+ro.device.gpu=Qualcomm Adreno 530
+ro.device.rear_cam=21 MP
+ro.device.front_cam=8 MP
+ro.device.screen_res=1440 x 2560 pixels (~515 ppi pixel density)
+
 # Product
 ro.config.product=x2
 ro.internal.model=Le X820

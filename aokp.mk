@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/leeco/x2/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_x2
+PRODUCT_NAME := aokp_x2
 PRODUCT_DEVICE := x2
 PRODUCT_MANUFACTURER := LeMobile
 PRODUCT_BRAND := LeEco
@@ -40,3 +40,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 TARGET_VENDOR := leeco
+
+# AOKP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Rohit Jaiswal (rohitjaiswal)"
+
+-include vendor/aokp/configs/bootanimation.mk
