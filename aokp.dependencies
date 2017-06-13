@@ -1,10 +1,4 @@
 [
-    {
-        "remote"      :  "aokp",
-        "repository"  :  "AOKP/device_leeco_x2",
-        "target_path" :  "device/leeco/x2",
-        "branch":        "nougat"
-    },
     { 
         "remote"      :  "cm",
         "repository"  :  "LineageOS/android_device_leeco_msm8996-common",
