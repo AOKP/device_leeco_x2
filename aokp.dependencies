@@ -28,11 +28,5 @@
         "repository"  :  "LineageOS/android_packages_resources_devicesettings",
         "target_path" :  "packages/resources/devicesettings",
         "branch"      :  "cm-14.1"
-    },
-    {
-        "remote"      :  "github",
-        "repository"  :  "TheMuppets/proprietary_vendor_leeco",
-        "target_path" :  "vendor/leeco",
-        "branch"      :  "cm-14.1"
     }
 ]
