@@ -1,0 +1,26 @@
+[
+    { 
+        "remote"      :  "los",
+        "repository"  :  "LineageOS/android_device_leeco_msm8996-common",
+        "target_path" :  "device/leeco/msm8996-common",
+        "branch"      :  "lineage-15.1" 
+    },
+    {
+        "remote"      :  "los",
+        "repository"  :  "LineageOS/android_kernel_leeco_msm8996",
+        "target_path" :  "kernel/leeco/msm8996",
+        "branch"      :  "lineage-15.1"
+    },
+    {
+        "remote"      :  "los",
+        "repository"  :  "LineageOS/android_device_qcom_common",
+        "target_path" :  "device/qcom/common",
+        "branch"      :  "lineage-15.1"
+    },
+    { 
+        "remote"      :  "los",
+        "repository"  :  "LineageOS/android_packages_resources_devicesettings",
+        "target_path" :  "packages/resources/devicesettings",
+        "branch"      :  "lineage-15.1"
+    }
+]
