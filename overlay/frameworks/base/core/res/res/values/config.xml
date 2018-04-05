@@ -105,4 +105,11 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDim">5</integer>
 
+    <!-- Allow user to adjust button brightness from settings -->
+    <integer name="config_buttonBrightnessSettingDefault">110</integer>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
+    <!-- Hardware keys on/off option -->
+    <bool name="config_hwKeysPref">true</bool>
+
 </resources>
